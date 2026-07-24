@@ -1,7 +1,26 @@
 aid: cixtech
-name: cixtech
-description: cixtech is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cixtech.png
+name: CIX Technology
+description: CIX Technology (此芯科技) is a Chinese fabless semiconductor company founded
+  in 2021 that designs high-performance, general-purpose heterogeneous intelligent
+  CPU chips for AI computing. The company builds low-power, high-efficiency compute
+  platforms spanning personal computing (PC), vehicle/automotive computing, and edge
+  computing, and partners across the Arm ecosystem (Arm, Arm China, Lenovo and others).
+  It was surfaced as a portfolio company of the venture firm qiming and added to the
+  API Evangelist network. CIX is a silicon/hardware company and publishes no public
+  developer API, OpenAPI, SDK, or developer portal at this time; this profile captures
+  its verifiable public identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/cixtech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- CPU
+- Artificial Intelligence
+- Edge Computing
+- Automotive
+- Hardware
+- Arm
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cixtech-domain-security.yml
 - type: Website
   url: https://cixtech.com
+- type: Support
+  url: https://support.cixtech.com/
+- type: Blog
+  url: https://cixtech.com/news/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
